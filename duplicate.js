@@ -7,8 +7,8 @@
 // const arr = [1, 2, 3, 4, 5, 1, 3, 5];
 // console.log(duplicate(arr));
 
-const arr = [1, 1, 1, 2, 3, 4, 5, 5, 1, 3, 3, 5];
-let l = arr.length;
+// const arr = [1, 1, 1, 2, 3, 4, 5, 5, 1, 3, 3, 5];
+// let l = arr.length;
 // function duplicate(arr) {
 //   const duplicate = [];
 //   let idx = 0;
@@ -31,6 +31,10 @@ let l = arr.length;
 // }
 // console.log(duplicate(arr));
 
+
+
+const arr = [1, 1, 1, 2, 3, 4, 5, 5, 1, 3, 3, 5];
+let l = arr.length;
 function duplicate(arr) {
   let duplicate = [];
   let idx = 0;
@@ -50,7 +54,7 @@ function duplicate(arr) {
       {
         duplicate[idx]=arr[i]
         idx++
-        // break
+        break
       }
     }
   }
