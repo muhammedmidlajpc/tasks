@@ -43,6 +43,7 @@ function duplicate(arr) {
     for (d = 0; d < duplicate.length; d++) {
       if (arr[i] === duplicate[d]) {
         isexist = true;
+        break;
       }
 
     }
