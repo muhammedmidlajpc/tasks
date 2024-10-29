@@ -22,10 +22,9 @@ const missing = (arr) => {
   //     l=arr.length;
   //   }
   // }
-
-  for (let j = 0; j < largest; j++) {
-    narr[j] = j + 1;
-  }
-  return narr;
+  // for (let j = 0; j < largest; j++) {
+  //   narr[j] = j + 1;
+  // }
+  // return narr;
 };
 console.log(missing([1, 3, 5]));

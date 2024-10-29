@@ -1,7 +1,15 @@
-const list = [1, 2, 3, 1, 2, 5, 1, 4, 6, 3, 2];
-const duplicates = list.filter((ele, idx) => {
-  return list.indexOf(ele) === idx;
-  console.log(ele);
-  
-});
-console.log(duplicates);
+// 
+
+var removeDuplicates = function(nums) {
+  let temp=[]
+  let j=0
+  let k=nums.length
+  for(i=0;i<k;i++){
+      if(nums[i]!==nums[i+1]){
+          temp[j]=nums[i]
+          j++
+      }
+  }
+  return temp
+};
+console.log(removeDuplicates([0,0,1,1,1,2,2,3,3,4]));
